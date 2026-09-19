@@ -256,7 +256,7 @@ bear in mind that internal DOM changes may not be explicitly documented.
 
 ## Development
 
-This project was developed with AI assistance, including code review, debugging
+This project was developed with AI assistance, including documentation, code review, debugging
 and research into Home Assistant's frontend implementation. The resulting code
 was developed on and tested against the author's live Home Assistant
 installation using [OpenCode](https://github.com/magnusoverli/opencode) and the MCP access it provides as the development tool.
