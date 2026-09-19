@@ -259,7 +259,7 @@ bear in mind that internal DOM changes may not be explicitly documented.
 This project was developed with AI assistance, including documentation, code review, debugging
 and research into Home Assistant's frontend implementation. The resulting code
 was developed on and tested against the author's live Home Assistant
-installation using [OpenCode](https://github.com/magnusoverli/opencode) and the MCP access it provides as the development tool.
+installation using the [Home Assistant OpenCode intergration](https://github.com/magnusoverli/opencode), and the MCP access it provides as the development tool.
 
 Getting the DOM traversal and re-render handling working reliably took several
 hours and multiple iterations against the author's live Home Assistant
