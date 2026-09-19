@@ -1,6 +1,6 @@
 # Changelog
 
-## [beta] - 2026-09-18
+## [beta] - 2026-09-19
 
 Initial standalone release of the working Home Dashboard header module.
 
@@ -26,6 +26,6 @@ Initial standalone release of the working Home Dashboard header module.
 
 ### Tested
 
-- Home Assistant Core 2026.9.3, Frontend 20260826.7.
+- Home Assistant Core 2026.9.3, Frontend 20260826.7. 
 - Not guaranteed to survive future Home Assistant frontend restructuring —
   see README, "Upgrade risk and architectural trade-offs".
