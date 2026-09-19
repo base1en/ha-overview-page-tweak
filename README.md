@@ -1,8 +1,8 @@
 # Home Assistant Home Dashboard Header
 
 Overrides the header of Home Assistant's built-in Home Dashboard (the panel
-historically titled "Overview") so it reads **"Home"**, and adds shortcut icon
-buttons inline in that header, immediately to the right of the title.
+historically titled "Overview") so it reads **"Home"**, and adds inline shortcut icon
+buttons to the header, immediately to the right of the title.
 
 ![Home Assistant Home Dashboard with custom header and shortcut icons](screenshot-home-dashboard.png)
 
