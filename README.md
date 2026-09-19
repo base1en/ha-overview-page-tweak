@@ -101,7 +101,7 @@ Open `home-dashboard-header.js` and edit the **`SHORTCUTS`** block near the
 top – it is the only section you should normally need to change:
 
 ```js
-const SHORTCUTS = \[
+const SHORTCUTS = [
   {
     icon: "mdi:power-plug",
     label: "Smart Plugs",
@@ -164,12 +164,12 @@ The module's `SCOPED` gate allows **only**:
 * `/home`
 * `/home/overview`
 
-Everything else – including the Home Dashboard sub-views (`/home/areas-\*`,
+Everything else – including the Home Dashboard sub-views (`/home/areas-*`,
 `/home/media-players`, `/home/other-devices`, which render their own headers)
 – is intentionally left alone, and the module cleans up after itself when you
 leave these routes.
 
-**Do not add `/lovelace\*` routes to the scope.** On HA 2026.9+ `/lovelace/\*`
+**Do not add `/lovelace*` routes to the scope.** On HA 2026.9+ `/lovelace/*`
 is a **dead route**; dashboards are top-level panels at their own URL (e.g.
 `/smart-plugs`). The example shortcut paths above are direct dashboard URLs,
 not `/lovelace/...` URLs.
