@@ -1,6 +1,10 @@
 /*
  * home-dashboard-header.js
  *
+ * https://github.com/base1en/ha-overview-page-tweak
+ *
+ * Copyright (c) 2026 Paul James
+ *
  * Overrides the header of Home Assistant's built-in Home Dashboard so it
  * reads "Home" instead of "Overview", and adds shortcut icon buttons inline
  * in that header, immediately to the right of the title.
@@ -20,6 +24,7 @@
  * their own URL.
  *
  * License: MIT (see LICENSE).
+ * See LICENSE in the repository for the full licence text.
  */
 (() => {
   "use strict";
