@@ -23,7 +23,7 @@
  * HA 2026.9+ that is a dead route - dashboards are top-level panels at
  * their own URL.
  *
- * License: MIT (see LICENSE).
+ * License: MIT 
  * See LICENSE in the repository for the full licence text.
  */
 (() => {
